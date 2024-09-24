@@ -1,0 +1,129 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folder
+.venv/
+.env/
+
+# Docker files
+# Ignore Docker-related files (except the Docker Compose file itself)
+docker-compose.override.yml
+docker-compose.yml.override
+docker-compose.override.yaml
+docker-compose.yaml.override
+
+# MongoDB data and logs
+mongo_data/
+data/
+
+
+# Logs
+*.log
+
+# Cache
+*.cache
+*.lock
+*.gz
+
+# FastAPI-related files
+*.db
+instance/
+
+# Python egg files
+*.egg-info/
+.eggs/
+
+# pyenv
+.python-version
+
+# VS Code specific
+.vscode/
+
+# Jupyter Notebook checkpoints (optional, in case you use Jupyter)
+.ipynb_checkpoints/
+
+# Environment-specific files
+.mypy_cache/
+.pytest_cache/
+
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Node.js dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Parcel-bundler cache (if using Parcel)
+/.cache
+
+# Next.js build output (if using Next.js)
+/.next
+/out
+
+# Nuxt.js build / generate output (if using Nuxt.js)
+/.nuxt
+/dist
+
+# Gatsby files (if using Gatsby)
+/.cache/
+/public
+
+# dotenv environment variable files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build output
+/dist
+/build
+
+# Dependency directories
+/node_modules/
+/jspm_packages/
+
+# Static files
+/public/static/
+
+# Ignore yarn.lock or package-lock.json if you're using npm
+yarn.lock
+package-lock.json
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# macOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+
+# Ignore test coverage files
+/coverage
+
+# eslint cache
+.eslintcache
+
+# Styled Components artifacts (if using styled-components)
+.stylelintrc.cache
+
+# Optional: Include if using TypeScript
+*.tsbuildinfo
